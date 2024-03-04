@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".BottomSheetFragment"
+    tools:layout_editor_absoluteX="1dp"
+    tools:layout_editor_absoluteY="-127dp">
+
+    <ImageView
+        android:id="@+id/imageViewSepet"
+        android:layout_width="41dp"
+        android:layout_height="41dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:src="@drawable/home_icon"
+        android:tint="#B8B8B8"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/imageViewKesfet"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/sepet_icon" />
+
+    <TextView
+        android:id="@+id/textViewAnasayfa4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Sepetim"
+        android:textColor="#B8B8B8"
+        app:layout_constraintEnd_toEndOf="@+id/imageViewSepet"
+        app:layout_constraintStart_toStartOf="@+id/imageViewSepet"
+        app:layout_constraintTop_toBottomOf="@+id/imageViewSepet" />
+
+    <ImageView
+        android:id="@+id/imageViewKesfet"
+        android:layout_width="41dp"
+        android:layout_height="41dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:src="@drawable/home_icon"
+        android:tint="#B8B8B8"
+        app:layout_constraintEnd_toStartOf="@+id/imageViewSepet"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/imageViewTag"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/kesfet_icon" />
+
+    <TextView
+        android:id="@+id/textViewKesfet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Keşfet"
+        android:textColor="#B8B8B8"
+        app:layout_constraintEnd_toEndOf="@+id/imageViewKesfet"
+        app:layout_constraintStart_toStartOf="@+id/imageViewKesfet"
+        app:layout_constraintTop_toBottomOf="@+id/imageViewKesfet" />
+
+    <ImageView
+        android:id="@+id/imageViewTag"
+        android:layout_width="41dp"
+        android:layout_height="41dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:src="@drawable/home_icon"
+        android:tint="#B8B8B8"
+        app:layout_constraintEnd_toStartOf="@+id/imageViewKesfet"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/imageViewHome"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/price_tag" />
+
+    <TextView
+        android:id="@+id/textViewKategoriler"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Kategoriler"
+        android:textColor="#B8B8B8"
+        app:layout_constraintEnd_toEndOf="@+id/imageViewTag"
+        app:layout_constraintStart_toStartOf="@+id/imageViewTag"
+        app:layout_constraintTop_toBottomOf="@+id/imageViewTag" />
+
+    <ImageView
+        android:id="@+id/imageViewHome"
+        android:layout_width="41dp"
+        android:layout_height="41dp"
+        android:layout_marginTop="8dp"
+        android:src="@drawable/home_icon"
+        app:layout_constraintEnd_toStartOf="@+id/imageViewTag"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textViewAnasayfa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="16dp"
+        android:text="Ana Sayfa"
+        android:textColor="#0A52A0"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/imageViewHome"
+        app:layout_constraintStart_toStartOf="@+id/imageViewHome"
+        app:layout_constraintTop_toBottomOf="@+id/imageViewHome" />
+</androidx.constraintlayout.widget.ConstraintLayout>

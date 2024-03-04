@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">KotlinDAndR</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="ana_sayfa">Ana Sayfa</string>
+    <string name="kategoriler">Kategoriler</string>
+    <string name="kesfet">Keşfet</string>
+    <string name="sepetim">Sepetim</string>
+    <string name="anne_bebek_urunleri">Anne-Bebek Ürünleri</string>
+</resources>

@@ -1,0 +1,7 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.KotlinDAndR" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="android:statusBarColor" targetApi="1">@color/white</item>
+        <item name="android:windowLightStatusBar">true</item>
+    </style> <style name="Theme.KotlinDAndR" parent="Base.Theme.KotlinDAndR" />
+</resources>

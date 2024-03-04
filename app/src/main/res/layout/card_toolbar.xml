@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardViewToolbar"
+        android:layout_width="match_parent"
+        android:layout_height="94dp">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/buttonSub"
+                android:layout_width="70dp"
+                android:layout_height="60dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="16dp"
+                android:backgroundTint="#00FFFFFF"
+                app:icon="@drawable/bell_icon"
+                app:iconGravity="textEnd"
+                app:iconSize="32dp"
+                app:iconTint="#BD2C2C"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="118dp"
+                android:layout_height="66dp"
+                android:layout_marginTop="16dp"
+                android:cropToPadding="true"
+                android:padding="0dp"
+                app:layout_constraintEnd_toStartOf="@+id/buttonSub"
+                app:layout_constraintStart_toEndOf="@+id/buttonMenu"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/marka_icon" />
+
+            <Button
+                android:id="@+id/buttonMenu"
+                android:layout_width="70dp"
+                android:layout_height="56dp"
+                android:layout_marginStart="16dp"
+                android:backgroundTint="#00FFFFFF"
+                app:icon="@drawable/menu_icon_dandr"
+                app:iconGravity="textEnd"
+                app:iconPadding="0dp"
+                app:iconSize="60dp"
+                app:iconTint="#AA9F9F"
+                app:layout_constraintStart_toStartOf="parent"
+                tools:layout_editor_absoluteY="20dp" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    w
+
+</LinearLayout>
